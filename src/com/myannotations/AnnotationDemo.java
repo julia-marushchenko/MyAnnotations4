@@ -50,6 +50,7 @@ class SubClass extends AnnotationDemo {
     }
 }
 
+@Retention(RetentionPolicy.RUNTIME)
 @interface CustomerAnnotation {
     String name();
     int id();
